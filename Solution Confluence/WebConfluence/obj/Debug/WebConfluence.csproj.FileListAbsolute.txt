@@ -1,0 +1,5 @@
+C:\TFSCDNTCS\NoTFS\WEB-EDU\SolutionWebConfluence\WebConfluence\bin\WebConfluence.dll
+C:\TFSCDNTCS\NoTFS\WEB-EDU\SolutionWebConfluence\WebConfluence\bin\WebConfluence.pdb
+C:\TFSCDNTCS\NoTFS\WEB-EDU\SolutionWebConfluence\WebConfluence\obj\Debug\WebConfluence.csprojResolveAssemblyReference.cache
+C:\TFSCDNTCS\NoTFS\WEB-EDU\SolutionWebConfluence\WebConfluence\obj\Debug\WebConfluence.dll
+C:\TFSCDNTCS\NoTFS\WEB-EDU\SolutionWebConfluence\WebConfluence\obj\Debug\WebConfluence.pdb
