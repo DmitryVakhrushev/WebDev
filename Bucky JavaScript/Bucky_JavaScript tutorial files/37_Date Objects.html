@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html>
+<head> </head>
+<body>
+	<script type="text/javascript">
+		//function doSomething (){document.write("Tuna");}
+		// setInterval("doSomething()",1000);
+		
+		function printTime(){
+			var now = new Date();// writes current date and time to the variable "now"
+			var hour = now.getHours();
+			var min = now.getMinutes();
+			var sec = now.getSeconds();
+				document.write(hour+":"+min+":"+sec+"<br />");
+		}
+		
+		//printTime();
+		setInterval("printTime()", 1000); //calling the printTime function every 1 sec
+		
+	</script>
+</body>
+</html>
+
+

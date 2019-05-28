@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+<head>
+	<script type="text/javascript">
+		function validator(){
+		if (document.buckysForm.thebox.checked)
+			alert("Yes, it's checked!");
+		else
+			alert("No, please check the checkbox");
+		}
+	</script>
+
+ </head>
+<body>
+	<form name="buckysForm">
+		<input type="checkbox" name="thebox" />
+		<input type="button" value="Press Me!" onClick="validator()" />
+	</form>
+</body>
+</html>
+
+

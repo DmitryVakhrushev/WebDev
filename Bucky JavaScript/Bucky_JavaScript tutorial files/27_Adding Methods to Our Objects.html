@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+<head>
+	<script type="text/javascript">
+		function people (name, age){
+			this.name = name;
+			this.age = age;
+			this.yearsUntilRetire = yearsLeft; 
+		}
+		
+		//do not iclude (). That tells JavaScript that this method(yearsLeft) is a part of the object (people)
+		//because it has no paranthesis ()
+		
+		function yearsLeft(){
+			var numYears = 65 - this.age;
+			return numYears;
+		}
+		
+		var natalie = new people ("Natalie Portman", 28);
+		var bucky = new people ("Bucky Roberts", 24);
+	</script>
+</head>
+
+<body>
+	<script type="text/javascript">
+		document.write(natalie.age + "<hr />");
+		document.write(natalie.yearsUntilRetire()); //here we need to add ()
+		
+	</script>
+</body>
+</html>

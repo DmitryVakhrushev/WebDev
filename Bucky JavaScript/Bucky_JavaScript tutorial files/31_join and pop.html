@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html>
+<head> </head>
+<body>
+	<script type="text/javascript">
+		var movies = new Array ("Avatar", "Goodwill Hunting", "Vanilla Sky", "Fight Club");
+			//join creates a string from an array
+		
+		var string1 = movies.join(); //()by default no parameters -- means items will be separated by ","
+			document.write(string1 + "<br />");
+		
+		var string2 = movies.join(" - "); //items will be separated by " - "
+			document.write(string2 + "<hr />");
+		
+		document.write(movies[3] + "<br />");
+		
+			movies.pop(); //the last element in the array was deleted
+		
+		document.write(movies[3] + "<br />"); // no more element #3
+		document.write(movies[2] + "<br />"); // we have just elements from 0 to 2
+	</script>
+</body>
+</html>
