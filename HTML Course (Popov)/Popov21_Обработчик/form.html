@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Формы</title>
+</head>
+
+<body>
+    <!-- Define a form -->
+    <form action="formdata.php" method="POST" name="form1">
+
+        <!-- Field Grouping -->
+        <fieldset>
+            <legend>Ввод личных данных</legend>
+            <!-- Text form with MAX input set to 10 symbols-->
+            <p><label>Введите ваше имя (макс. 10 символов):<input type="text" name="name" size="30"
+                        maxlength="10"></label>
+            </p>
+
+            <!-- Password form -->
+            <p><label>Введите ваш пароль:<input type="password" name="name" size="30"></label></p>
+        </fieldset>
+        </br>
+        <fieldset>
+            <legend>Вопросы</legend>
+            <p>
+                <!-- Radio Button -->
+                Любите ли вы экономить время?
+                <label>Да<input type="radio" name="time" value="yes" checked></label>
+                <label>Нет<input type="radio" name="time" value="no"></label>
+            </p>
+
+            <p>Какими инструментами для экономии времени вы пользуетесь?</p>
+            <p>
+                <!-- Check box -->
+                <label><input type="checkbox" name="ez" disabled>Ежедневник</label>
+                <label><input type="checkbox" name="hr" checked>Хронометраж</label>
+                <label><input type="checkbox" name="sv">Свои наработки</label>
+            </p>
+
+            <p>Сколько часов в день вы спите?</p>
+            <p>
+                <select name="sleep" size="5" multiple>
+                    <option>5</option>
+                    <option>6</option>
+                    <option value="seven">7</option>
+                    <option>8</option>
+                    <option>8+</option>
+                </select>
+
+                <select name="sleep">
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option selected>8</option>
+                    <option>8+</option>
+                </select>
+            </p>
+        </fieldset>
+
+        <!-- Text Area -->
+        <p><label for="text">Поделитесь своими наработками по экономии времени:</label></p>
+        <p><textarea name="text" cols="50" rows="6" id="text" readonly>Тестовый текст...</textarea></p>
+
+        <!-- Buttons -->
+        <p>
+            <input type="reset" name="reset" value="Сброс">
+            <input type="submit" name="submit" value="Отправить">
+        </p>
+        <p>
+            <input type="image" src="images/ibutton.png" name="imageButton" value="xxxx" width="100" height="50">
+        </p>
+        <p>
+            <input type="button" name="button" value="Кнопка">
+        </p>
+    </form>
+
+</body>
+
+</html>
