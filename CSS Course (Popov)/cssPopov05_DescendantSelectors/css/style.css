@@ -1,0 +1,34 @@
+
+/* 
+Group selectors to define the same style for different groups
+paragraph (p)
+header #4 (h4)
+identifier (#myList)
+*/
+p, h4, #myList{
+    color:#4800FF;
+}
+
+
+/* Class the defines a color style*/
+.newClass{
+    color:#6be5c3;
+}
+
+
+/*We want to color list items (li) only inside unordered lists (ul)*/
+ul li{
+    color:#cc0000;   
+}
+
+
+/* 
+Read this sequence from the end to beginnig:
+We want to color
+    ALL links (a)
+        that are inside of paragraphs (p)
+            and are inside of the identidier (#bt)
+*/
+#bt p a{
+    color:#FAA21A;   
+}

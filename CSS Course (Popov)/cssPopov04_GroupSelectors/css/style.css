@@ -1,0 +1,10 @@
+
+/* Group selectors to define the same style for different groups */
+p, h4, #myList{
+    color:#4800FF;
+}
+
+
+.newClass{
+    color:#6be5c3;
+}

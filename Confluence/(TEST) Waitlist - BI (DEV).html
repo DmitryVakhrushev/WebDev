@@ -7,12 +7,17 @@
   <style type="text/css">
     p {
       color: #e64f61;
+      font-size: 20px;
       font-family: Calibri;
     }
 
-    h3 {
-      color: #7c4fe6;
+    li {
+      color: #4fe675;
       font-family: arial;
+    }
+
+    .class_h3 {
+      color: #f50a0a;
     }
   </style>
 
@@ -21,16 +26,25 @@
 <body>
   <hr />
   <p>My Test Paragraph</p>
-  <h3>Test h3 header</h3>
+  <h3 style="color: #0af5b2">Test h3 header</h3>
+  <h3 class="class_h3">Another h3 header</h3>
+
   <p>
     <span style="color: rgb(51,51,153);"> <strong>Waitlist Status Reports</strong> </span>
   </p>
   <ul>
     <li>
+      <a class="class_h3"
+        href="http://mvtcsbisql01d/ReportServer?%2fWAITLIST%2fWaitlistReports%2fStatusSummary&amp;rs:Command=Render&amp;rc:Zoom=Page Width">Overall
+        Status Summary</a>
+    </li>
+
+    <li>
       <span style="color: rgb(51,51,51);"> <a
           href="http://mvtcsbisql01d/ReportServer?%2fWAITLIST%2fWaitlistReports%2fStatusSummary&amp;rs:Command=Render&amp;rc:Zoom=Page Width">Overall
           Status Summary</a> </span>
     </li>
+
     <li>
       <span style="color: rgb(51,51,51);"> <a
           href="http://mvtcsbisql01d/ReportServer?%2fWAITLIST%2fWaitlistReports%2fWaitingByAgeCategory&amp;rs:Command=Render&amp;rc:Zoom=Whole Page">Waiting
