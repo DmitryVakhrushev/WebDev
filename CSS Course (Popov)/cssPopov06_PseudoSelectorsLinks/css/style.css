@@ -21,14 +21,21 @@ ul li{
     color:#cc0000;   
 }
 
+/* Define color for each state of the link */
 
-/* 
-Read this sequence from the end to beginning:
-We want to color
-    ALL links (a)
-        that are inside of paragraphs (p)
-            and are inside of the identidier (#bt)
-*/
-#bt p a{
-    color:#FAA21A;   
+a:link{
+    color: #111111;
 }
+
+a:visited{
+    color: #FAA21A;
+}
+
+a:hover{
+    color: #800000;
+}
+
+a:active{
+    color: #008000; /* clicked and hold on the link to see the color*/
+}
+
