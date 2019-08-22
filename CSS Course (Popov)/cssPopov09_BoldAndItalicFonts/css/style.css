@@ -1,0 +1,26 @@
+
+p, h4, #myList{
+    color:#4800FF;
+}
+
+p {
+    /*font-family: "Lucida Console"; */
+    font-size: 100%
+}
+
+
+.newClass{
+    color:#6be5c3;
+}
+
+.new2{
+    font-style: italic;
+}
+
+.new3{
+                /*  normal | bold | 100-900 with step=100*/
+    font-weight: bold;
+    /* font-weight: normal; */
+    /* font-weight: 600; */
+}
+

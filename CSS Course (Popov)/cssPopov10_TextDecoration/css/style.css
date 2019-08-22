@@ -1,0 +1,27 @@
+
+p, h4, #myList{
+    color:#4800FF;
+}
+
+p {
+    /*font-family: "Lucida Console"; */
+    font-size: 100%
+}
+
+
+.newClass{
+    color:#6be5c3;
+}
+
+.new2{
+    font-style: italic;
+}
+
+.new3{
+    font-weight: bold;
+    text-decoration: line-through; /* underline | overline | line-through*/
+}
+
+a{
+    text-decoration: none; /* to exclude underlining  from all links*/
+}

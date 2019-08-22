@@ -1,0 +1,46 @@
+
+/* 
+Group selectors to define the same style for different groups
+paragraph (p)
+header #4 (h4)
+identifier (#myList)
+*/
+p, h4, #myList{
+    color:#4800FF;
+}
+
+p {
+    /* find Verdana. If it's not found use Tahoma. If it's not found use any sans-serif*/
+    font-family: "Lucida Console", Verdana, Tahoma, sans-serif;
+}
+
+
+/* Class the defines a color style*/
+.newClass{
+    color:#6be5c3;
+}
+
+
+/*We want to color list items (li) only inside unordered lists (ul)*/
+ul li{
+    color:#cc0000;   
+}
+
+/* Define color for each state of the link */
+
+a:link{
+    color: #111111;
+}
+
+a:visited{
+    color: #FAA21A;
+}
+
+a:hover{
+    color: #800000;
+}
+
+a:active{
+    color: #008000; /* clicked and hold on the link to see the color*/
+}
+
