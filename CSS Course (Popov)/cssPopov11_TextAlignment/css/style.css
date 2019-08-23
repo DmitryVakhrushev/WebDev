@@ -1,0 +1,36 @@
+
+p, h4, #myList{
+    color:#4800FF;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 14px;
+    text-indent: 30px; /* Красная строка*/
+}
+
+#header{
+  color:#c32017;
+  text-align: center;
+}
+
+.newClass{
+    color:#6be5c3;
+}
+
+.new2{
+    font-style: italic;
+}
+
+.new3{
+    font-weight: bold;
+    text-decoration: line-through; /* underline | overline | line-through*/
+}
+
+.new4{
+    text-align: justify; /* alignment by both left and right sides*/
+}
+
+a{
+    text-decoration: none; /* to exclude underlining from all links*/
+}
