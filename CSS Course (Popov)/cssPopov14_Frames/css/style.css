@@ -1,0 +1,65 @@
+
+h2{
+    letter-spacing: 10px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #FAA21A;
+
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #FAA21A;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+p, h4, #myList{
+    color:#4800FF;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 16px;
+    /*text-indent: 30px;*/ /* Красная строка*/
+    /*line-height: 20px;*/ /* we can use a specified number of pixels*/
+    /*line-height: 1.0;*/ /*we can also use a multiplier for the current font size*/
+    /*word-spacing: 12px;*/ /* will be ignored if text-align: justify; */
+}
+
+#header{
+  color:#c32017;
+  text-align: center;
+  text-transform: capitalize;
+  /*border-width: 2px;     */
+  /*border-style: solid;   */
+  /*border-color: #FAA21A; */
+
+  border: 2px solid #FAA21A; /* short notation*/
+}
+
+a{
+    text-decoration: none; /* to exclude default underlining from all links*/
+    border-bottom: 1px dashed #c32017; /* adding customized line (border) below the link text*/
+    color: #333333;
+}
+
+
+.new{
+    color:#6be5c3;
+    font: italic bold 16px Tahoma;
+}
+
+.new2{
+    font-style: italic;
+}
+
+.new3{
+    font-weight: bold;
+    text-decoration: line-through; /* underline | overline | line-through*/
+}
+
+.new4{
+    text-align: justify; /* alignment by both left and right sides*/
+}
+
