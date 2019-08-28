@@ -1,0 +1,39 @@
+
+body{
+    font: 14px Tahoma;
+    color: #333333;
+}
+
+p {
+    text-indent: 30px;
+}
+
+#header{
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid #FAA21A; /* short notation*/
+  }
+
+.new2{
+    font-style: italic;
+}
+
+.new3{
+    font-weight: bold;
+    text-decoration: line-through; /* underline | overline | line-through*/
+}
+
+a{
+    text-decoration: none; /* to exclude default underlining from all links*/
+    border-bottom: 1px dashed #c32017; /* adding customized line (border) below the link text*/
+}
+
+.new4{
+    text-align: justify; /* alignment by both left and right sides*/
+}
+
+ul{
+    list-style-image: url(../images/arrow.png);
+    list-style-position: inside;
+}
+
