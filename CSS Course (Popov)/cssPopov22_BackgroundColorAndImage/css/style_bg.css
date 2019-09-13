@@ -1,0 +1,19 @@
+
+body{
+    background-color: #c3c3c3;
+}
+
+#main{
+    width: 800px;
+    height: 421px;
+    margin: 29px auto; /* 0 from top, auto from left and right */
+    outline: 1px solid #cc0000; /* for debugging, doesn't affect any size settings */
+    background-image: url(../images/beautiful-color-gradients-backgrounds.jpg);
+}
+
+#main h1{
+    text-align: center;
+    padding-top: 182px;
+    font: 36px Verdana;
+    outline: 1px solid #cc0000;
+}
