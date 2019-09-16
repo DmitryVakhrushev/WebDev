@@ -1,0 +1,26 @@
+
+body{
+    background-color: #c3c3c3;
+    background-image: url(../images/ava7patterns_pattern_1627.png);
+    background-repeat: repeat; /* repeat, repeat-x, repeat-y, no-repeat */
+}
+
+#main{
+    width: 800px;
+    height: 421px;
+    margin: 29px auto; /* 0 from top, auto from left and right */
+    outline: 1px solid #cc0000; /* for debugging, doesn't affect any size settings */
+    background-color: #fefecc; /* backup color if the images are not loaded */
+    background-image: url(../images/bg_s1.png);
+    background-repeat: repeat-x;
+}
+
+#main h1{
+    text-align: center;
+    padding-top: 182px;
+    font: 36px Verdana;
+    outline: 1px solid #cc0000;
+    background-image: url(../images/Owl2011_50x60.png);
+    background-repeat: no-repeat;
+    background-position: 115px 160px;
+}
