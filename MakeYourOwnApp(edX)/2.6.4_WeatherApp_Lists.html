@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather app for MOOC</title>
+  <style>
+
+    *{
+      outline: 0px solid red;
+    }
+    div {
+      font-family: sans-serif;
+    }
+    
+    h1 {
+      color: white;
+      text-align: center;
+      background-color: #000000;
+      text-transform: uppercase;
+    }
+
+    ul {
+      text-align: center;
+      list-style-type: none;
+      background-color: #368C7C;
+      color: white;
+    }
+
+    .mySpan1 {
+      color: #000000;
+    }
+  </style>
+</head>
+  
+<body>
+  <!--City-->
+  <div>
+    <h1>B E R L I N</h1>
+  </div>
+  
+  <!--Time-->
+  <!--
+    The content should start with a time with the format: ##:##, whereby # stands for a number.
+    The second part of the content shall be the temperature in the format: ##°C.
+    The third part of the content shall be the wind velocity in the format: # km/h.
+    The fourth part of the content shall be the humidity in the format: ## %.
+    Furthermore, the temperature and the humidity shall be bold and have a black text color. Use the already learned property to emphasize content. 
+    Additionally, the time and wind velocity shall have a white text color. 
+    Finally make sure the list doesn’t have any bulletpoints and has the background color: #368C7C.
+  -->
+  <div>
+    <ul>
+      <li>12:00 &emsp; <strong>17&deg;C</strong> &emsp; 6 km/h &emsp; <strong>63 %</strong> </li>
+      <li>13:00 &emsp; <strong>17&deg;C</strong> &emsp; 6 km/h &emsp; <strong>63 %</strong> </li>
+      <li>14:00 &emsp; <strong>17&deg;C</strong> &emsp; 6 km/h &emsp; <strong>63 %</strong> </li>
+      <li>15:00 &emsp; <strong>17&deg;C</strong> &emsp; 6 km/h &emsp; <strong>63 %</strong> </li>
+      <li>16:00 &emsp; <strong>17&deg;C</strong> &emsp; 6 km/h &emsp; <strong>63 %</strong> </li>
+      <li>17:00 &emsp; <strong>17&deg;C</strong> &emsp; 6 km/h &emsp; <strong>63 %</strong> </li>
+      <li>18:00 &emsp; <strong>17&deg;C</strong> &emsp; 6 km/h &emsp; <strong>63 %</strong> </li>
+      <li>19:00 &emsp; <strong>17&deg;C</strong> &emsp; 6 km/h &emsp; <strong>63 %</strong> </li>  
+
+      <li>
+        <span>20:00 &emsp; </span>
+        <span class="mySpan1">
+          <strong>17&deg;C</strong> &emsp;
+        </span>
+        <span>6 km/h &emsp; </span>
+        <span class="mySpan1">
+          <strong>63 %</strong>
+        </span>
+      </li>
+
+   </ul>
+  </div>
+
+</body>
+</html>
