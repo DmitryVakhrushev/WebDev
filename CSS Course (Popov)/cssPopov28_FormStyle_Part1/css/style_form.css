@@ -1,0 +1,30 @@
+body{
+    font: 11px Verdana, sans-serif;
+    color: #333333;
+}
+
+#wrapper{
+    width: 500px;
+}
+
+.question{
+    font-weight: bold;
+}
+
+fieldset{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #cccccc;
+  background-color: #fcfcfc;
+}
+
+textarea{
+    border: 1px solid #333333;
+    background-color: #f4f9ff;
+    width: 480px;
+    margin: 2px 10px;
+}
+
+.tp{
+    margin-left: 10px;
+}
