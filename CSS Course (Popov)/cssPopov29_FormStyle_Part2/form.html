@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="css/style_form.css" type="text/css">
+    <title>Forms</title>
+</head>
+
+<body>
+<div id="wrapper">
+    <form action="formdata.php" method="POST" name="form1">
+        <!-- Field Grouping -->
+        <fieldset>
+        
+            <legend>Ввод личных данных</legend>
+            
+            <p class="question"><label for="name">Введите ваше имя (макс. 10 символов):</label></p>
+            <p><input class="input" type="text" name="name" id="name" size="30" maxlength="10"></p>
+
+            <p class="question"><label for="password">Введите ваш пароль:</label></p>
+            <p><input class="input" type="password" name="password" id="password" size="30"></p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Вопросы</legend>
+            <!-- Radio Button -->
+            <p class="question">Любите ли вы экономить время?</p>
+            <p>
+                <label>Да<input type="radio" name="time" value="yes" checked></label>
+                <label>Нет<input type="radio" name="time" value="no"></label>
+            </p>
+
+            <!-- Check box -->
+            <p class="question">Какими инструментами для экономии времени вы пользуетесь?</p>
+            <p>
+                <label><input type="checkbox" name="ez" disabled>Ежедневник</label>
+                <label><input type="checkbox" name="hr" checked>Хронометраж</label>
+                <label><input type="checkbox" name="sv">Свои наработки</label>
+            </p>
+
+            <p class="question">Сколько часов в день вы спите?</p>
+            <p>
+                <select name="sleep">
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option selected>8</option>
+                    <option>8+</option>
+                </select>
+            </p>
+        </fieldset>
+
+        <!-- Text Area -->
+        <p class="question tp"><label for="text">Поделитесь своими наработками по экономии времени:</label></p>
+        <p><textarea name="text" cols="50" rows="6" id="text">Тестовый текст...</textarea></p>
+
+        <!-- Buttons -->
+        <p>
+            <input type="image" src="images/sendbutton.png" name="imageButton" value="xxxx" width="140" height="50">
+        </p>
+
+    </form>
+</div>
+</body>
+</html>
+
