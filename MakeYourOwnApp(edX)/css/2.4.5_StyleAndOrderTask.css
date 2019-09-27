@@ -1,0 +1,23 @@
+body {
+    background-color: #45B29D;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  header, footer {
+    text-transform: uppercase;
+  }
+
+  header span {
+    background-color: rgb(44, 114, 101);
+    font-size: initial;
+  }
+
+  /* Set temperature font size*/
+  section div p {
+   font-size: 56px; 
+  }
+
+  footer div {
+   background-color: rgb(55, 142, 126); 
+  }
