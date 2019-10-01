@@ -1,0 +1,9 @@
+1. Скопируйте папку ie6 в корень вашего сайта
+2. На всех страницах вашего сайта в область head добавьте строки:
+<!--[if lte IE 6]>
+<meta http-equiv="refresh" content="0; url=http://yoursite.com/ie6/ie6.html">
+<![endif]-->
+
+P.S. Не забудьте поменять yoursite.com на ваш сайт.
+
+Источник способа: http://habrahabr.ru/blogs/ie/80319/

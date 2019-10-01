@@ -1,0 +1,8 @@
+1. Поместите файлы jquery-1.2.6.min.js и jquery.ie6blocker.js в папку js, а картинку no-ie6.png в папку images
+2. Подключите скрипты в области head
+<script type="text/javascript" src="js/jquery-1.2.6.min.js"></script> 
+<script type="text/javascript" src="js/jquery.ie6blocker.js"></script> 
+
+Если нужно изменить текст или путь к картинке, откройте фаил jquery.ie6blocker.js и отредактируйте его под себя.
+
+Сайт автора данного способа: http://css-tricks.com/ie-6-blocker-script/
