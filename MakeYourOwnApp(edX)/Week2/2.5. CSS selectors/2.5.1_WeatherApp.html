@@ -1,0 +1,69 @@
+<!DOCTYPE HTML> 
+<html> 
+  <head> 
+    <title>WeatherApp</title>
+
+    <style>
+        body {
+          background-color: #45B29D;
+          text-align: center;
+          font-family: sans-serif;
+        }
+        
+        header, footer{
+          text-transform: uppercase;
+        }
+
+        .arrow{
+          background-color:rgb(44, 114, 101);
+        }
+
+        #details{
+          color: #ffffff;
+          background-color: rgb(55, 142, 126);
+        }
+
+        .huge{
+          font-size: 56px;
+        }
+
+    </style>
+  </head> 
+  
+  <body>
+      <header>
+        <!-- city -->
+          <div style="color: #FFFFFF">
+            <a href="http://tinyurl.com/hqbxxba" target="_blank" alt="linkToGoogleMaps">b e r l i n</a>
+          </div>
+      
+        <!--left arrow, DATE, right arrow-->
+          <div>
+            <span class="arrow">&lt; </span>
+            1.9.2016
+            <span class="arrow">&gt;</span>
+          </div>
+      </header>
+        
+      <section>
+          <div><!-- picture of weather -->
+            <img src="../images/cloudy.png" width="150px" height="150px" alt="picture of the current weather">
+          </div>
+      
+          <p>Partly cloudy overnight.</p>
+      
+          <div><!-- temperature -->
+            <p class="huge">27&deg;C</p>
+          </div>
+      
+          <div>
+            <span> 7 KM/H </span> <span> 12 % </span>
+          </div>
+      </section>
+          
+        <footer>
+          <div id="details">details</div>
+        </footer>
+  
+  </body>
+</html> 

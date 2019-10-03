@@ -1,0 +1,69 @@
+<!DOCTYPE HTML> 
+<html> 
+  <head> 
+    <title>WeatherApp</title>
+
+    <style>
+
+        body {
+          background-color: #45B29D;
+          text-align: center;
+          font-family: sans-serif;
+        }
+        #app-bar{
+            background-color: rgb(34, 34, 34);
+            color: #ffffff;
+        }
+
+        #temp {
+          font-size: 56px;
+        }
+        footer div {
+          color: white;
+          background-color: rgb(55, 142, 126);
+        }
+        .nav-button{
+          /*background-color: rgb(44, 114, 101);*/
+          background-color: #2C7265 ;
+        }
+
+        #nav-bar{
+          background-color: rgb(55, 142, 126)
+        }
+
+    </style>
+  </head> 
+  
+  <body>
+
+      <header>
+          <div id="app-bar">
+            <span>menu</span>
+            <a href="http://tinyurl.com/hqbxxba" target="_blank" alt="linkToGoogleMaps">B E R L I N</a>
+            <span>navi</span>
+          </div>
+          <div id="nav-bar"><!--left arrow, DATE, right arrow-->
+            <span class="nav-button">&lt;</span>
+            <span class="nav-button">1.9.2016</span>
+            <span class="nav-button">&gt;</span>
+          </div>
+        </header>
+        
+        <section>
+          <div><!-- picture of weather -->
+            <img src="../images/clear-day.png" width="150px" height="150px" alt="picture of the current weather">
+          </div>
+            <p id="weather-description">Partly cloudy overnight.</p>
+            <div id="temp"><!-- temperature -->
+              27&deg;C
+            </div>
+            <div><span>7 KM/H</span> <span>12 %</span>
+          </div>
+        </section>
+          
+        <footer>
+          <div>Details</div>
+        </footer>
+  
+  </body>
+</html> 

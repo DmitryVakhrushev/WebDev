@@ -1,0 +1,41 @@
+<!DOCTYPE HTML> 
+<html> 
+  <head> 
+    <title>Cascading</title>
+    <style>
+
+        div {
+          /*The !important statement is powerful and can overwrite nearly everything. Remove it to see the other effects.*/
+          color: blue !important;
+        }
+
+        /*This rule addresses elements with the class division*/
+        .division {
+          color: lime;
+        }
+
+        /*This addresses the element with the id #upper AND the class .division*/
+        #upper.division {
+          color: green;
+        }
+
+        /*This addresses elements with the class division INSIDE an element with the id upper*/
+        #upper .division {
+          color: red;
+        }
+
+    </style>
+  </head> 
+  
+  <body>
+
+      <div id="upper" class="division">Upper division
+          <div id="inner" class="division">Inner division</div>
+      </div>
+      
+      <div id="lower" class="division">Middle division</div>
+      
+      <div>The last division</div>
+  
+  </body>
+</html> 
