@@ -1,0 +1,43 @@
+
+/* ----- Global ----- */
+*{
+    font-family: Roboto, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ----- App bar ----- */
+h1 {
+    color: #00838f;
+}
+
+/* ----- Channels List ----- */
+h2 {
+    color: #00838f;
+    font-size: smaller;
+}
+
+.channel-list{
+    list-style-type: none;   
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.small{
+    font-size: small;
+}
+
+
+/* ----- Messages ----- */
+p {
+    background-color: #eeeeee;
+}
+
+button {
+    background-color: #00838f;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: larger;
+}
