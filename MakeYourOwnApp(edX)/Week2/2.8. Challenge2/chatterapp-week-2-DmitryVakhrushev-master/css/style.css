@@ -6,6 +6,17 @@
     margin: 0px;
 }
 
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+section{
+    /*position: fixed;*/
+    /* vertical-align: text-top; */
+    /* height: 100vh; */
+}
+
 /* ----- App bar ----- */
 h1 {
     color: #00838f;
@@ -15,6 +26,12 @@ h1 {
 h2 {
     color: #00838f;
     font-size: smaller;
+}
+
+#channels{
+    width: 399px;
+    /* height: 100vh; */
+    
 }
 
 .channel-list{
@@ -31,8 +48,16 @@ h2 {
 
 
 /* ----- Messages ----- */
-p {
+.message {
     background-color: #eeeeee;
+}
+
+.inmessage{
+
+}
+
+.outmessage{
+
 }
 
 button {
