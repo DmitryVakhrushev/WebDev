@@ -1,0 +1,78 @@
+
+/* ----- Global ----- */
+*{
+    font-family: Roboto, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+section{
+    /*position: fixed;*/
+    /* vertical-align: text-top; */
+    /* height: 100vh; */
+}
+
+/* ----- App bar ----- */
+.headbar {
+    color: #00838f;
+}
+
+h1{
+    display: inline;
+}
+
+/* ----- Channels List ----- */
+h2 {
+    color: #00838f;
+    font-size: smaller;
+}
+
+#channels{
+    width: 399px;
+    /* height: 100vh; */
+    
+}
+
+.channel-list{
+    list-style-type: none;   
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.small{
+    font-size: small;
+}
+
+
+/* ----- Messages ----- */
+
+.username{
+    color: #00838f;
+    font-size: smaller;
+}
+
+.message {
+    background-color: #eeeeee;
+}
+
+.inmessage{
+
+}
+
+.outmessage{
+
+}
+
+button {
+    background-color: #00838f;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: larger;
+}
