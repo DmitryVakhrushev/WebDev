@@ -1,0 +1,64 @@
+
+body{
+    background-color: #d2d2d2;
+    font: 11px Verdana;
+    color: #696969;
+}
+
+#wrapper{
+    width: 650px;
+    margin: 30px auto;
+    background-color: #f4f4f4;
+}
+
+#header{
+    height: 75px;
+    background-image: url(../images/redHeader.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#button{
+    position: absolute;
+    top: -14px;
+    left: 294px;
+    z-index: 1;
+}
+
+#bird{
+    position: absolute;
+    top: -3px;
+    left: 274px;
+    z-index: 2;
+}
+
+
+#content{
+    padding: 20px 30px;
+}
+
+#new{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#operator{
+    position: fixed;
+    width: 22px;
+    height: 180px;
+    top: 250px;
+    left: 0px;
+}
+
+#operator img{
+    border: none;
+}
+
+#testVis {
+    visibility: hidden;
+}
+
+#testDisplay {
+    display: none;
+}
