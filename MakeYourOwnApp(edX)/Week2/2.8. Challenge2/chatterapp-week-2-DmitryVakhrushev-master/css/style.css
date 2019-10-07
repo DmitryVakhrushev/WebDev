@@ -18,8 +18,12 @@ section{
 }
 
 /* ----- App bar ----- */
-h1 {
+.headbar {
     color: #00838f;
+}
+
+h1{
+    display: inline;
 }
 
 /* ----- Channels List ----- */
@@ -48,6 +52,12 @@ h2 {
 
 
 /* ----- Messages ----- */
+
+.username{
+    color: #00838f;
+    font-size: smaller;
+}
+
 .message {
     background-color: #eeeeee;
 }
