@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Position Fixed</title>
+  <style>
+ 
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      #task {
+        text-align: center;
+        font-size: 28px;
+        color: darkorange;
+        line-height: 100px;
+      }
+      #nav-bar {
+        z-index: 1;
+        width: 100%;
+        position: fixed;
+        top: 0; /* elements is visible all the time, even if you scroll */
+        color: white; /* button text */
+        text-transform: uppercase;
+        background-color: #3A657F; /* menu strip color */
+      }
+      
+      /* styling buttons*/
+      div span {
+        font-size: 12px;
+        line-height: 40px;
+        background-color: #208BCC; /* button background color */
+        border-radius: 6px; /* button rounded corners */
+        padding: 2px; /* button size */
+        margin: 2px; /* space between buttons (inline as it's for <span>) */
+      }
+      #placeholder {
+        height: 800px;
+        background-color: beige;
+      }
+
+</style>
+</head>
+  
+<body>
+
+      <!--Steady navigation bar-->
+    <div id="nav-bar">
+      <span>home &#9660;</span>
+      <span>categories &#9660;</span>
+      <span>deals &#9660;</span>
+      <span>sale &#9660;</span>
+      <span>profile &#9660;</span>
+    </div>
+
+    <!--Visible page content of the web store-->
+    <div id="content">
+      <p id="task">Scroll down!</p>
+      <div id="placeholder">
+        <!--This div's purpose is to create a content long enough to make the site scrollable -->
+      </div>
+    </div>
+
+</body>
+</html>

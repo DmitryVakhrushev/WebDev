@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Position Absolute</title>
+  <style>
+      #great-grandmother {
+        position: absolute;
+        top: 10%;  /* from <body> */
+        left: 10%; /* from <body> */
+      }
+      #grandmother {
+        position: absolute;
+        top: 10%;  /* from great-grandmother */
+        left: 10%; /* from great-grandmother */ 
+      }
+      #mother {
+        /* not positioned, so it's placed righte after the grandmother */
+      }
+      #child {
+        position: absolute;
+        bottom: 10%; /* from grandmother because mother is not positioned */
+        right: 10%;  /* from grandmother because mother is not positioned */
+      }
+
+      * {
+        text-align: center;
+        font-size: 20px;
+        border-radius: 30px;
+      }
+      #great-grandmother {
+        height: 80%;
+        width: 80%;
+        background-color: lightgrey;
+      }
+      #grandmother {
+        height: 80%;
+        width: 80%;
+        background-color: darkgrey;
+      }
+      #mother {
+        height: 40%;
+        width: 40%;
+        background-color: #72514A;
+      }
+      #child {
+        height: 40%;
+        width: 40%;
+        color: white;
+        background-color: black;
+      }
+  </style>
+</head>
+  
+<body>
+    <div id="great-grandmother">great-grandmother
+      <div id="grandmother">grandmother
+        <div id="mother">mother
+          <div id="child">child
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

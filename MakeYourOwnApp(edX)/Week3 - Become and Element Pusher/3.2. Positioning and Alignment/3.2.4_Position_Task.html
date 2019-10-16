@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Position Absolute</title>
+  <style>
+        body {
+          background-color: #45B29D;
+          text-align: center;
+          font-family: sans-serif;
+          width: 60%;
+          padding: 0 20%;
+          position: relative; /* Set the body's position to a value that isn't visually distinguishable from its normal position so it can function as a reference element */
+
+        }
+        #app-bar {
+          background-color: rgb(34, 34, 34);
+          color: #ffffff;
+          padding: 21px;
+        }
+        #nav-bar {
+          background-color: rgb(55, 142, 126);
+          padding: 21px;
+        }
+        .nav-button  {
+          background-color: #2C7265;
+          padding: 13px 20px 13px 20px;
+        }
+        #temp {
+          font-size: 56px;
+        }
+        footer div {
+          color: white;
+          background-color: rgb(55, 142, 126);
+          padding: 21px;
+          margin-top: 24px;
+          border: 1px solid #222222;
+        }
+
+        /* Set the <header> 10px below its usual place. */
+        header {
+          position: relative;
+          top: 10px; 
+        }
+
+        /* Let the <section>, the <footer>, and the app-bar inherit the body's position with only one rule. */
+        section, footer, #app-bar {
+ 	        position: inherit; 
+        }
+        
+        /* set the "menu" 10 pixels from its parents (<div id="app-bar">) LEFT side.*/
+        #menu {
+          position:absolute;
+          left: 10px;
+        }
+
+        /* set the "locator" 10 pixels from its parents (<div id="app-bar">) RIGHT side.*/
+        #locator {
+          position:absolute;
+          right: 10px;
+        }
+
+  </style>
+</head>
+  
+<body>
+    <header>
+        <div id="app-bar">
+          <span id="menu">Menu</span>
+          <a href="http://tinyurl.com/hqbxxba" target="_blank" alt="linkToGoogleMaps">B E R L I N</a>
+          <span id="locator">Locate me</span>
+        </div>
+        <div id="nav-bar">
+          <span class="nav-button">&lt;</span> <span>1.9.2016</span> <span class="nav-button">&gt;</span>
+        </div>
+      </header>
+      
+      <section>
+        <div>
+          <img src="../../images/clear-day.png" width="150px" height="150px" alt="picture of the current weather">
+        </div>
+          <p id="weather-description">Partly cloudy overnight.</p>
+          <div id="temp">27&deg;C</div>
+          <div><span>7 KM/H</span> <span>12 %</span>
+        </div>
+      </section>
+        
+      <footer>
+        <div>Details</div>
+      </footer>
+</body>
+</html>
