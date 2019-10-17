@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Tricks</title>
+  <style>
+      body {
+        background-color: lightgrey;
+        border: 1px solid black;
+      }
+
+      div {
+        background-color: lightblue;
+        border: inherit;
+        width: 250px;
+        height: 100px;
+        margin: 10px;
+      }
+
+      #upper-div {
+        margin: auto;
+        text-align: center; /* horizontally centered*/
+        line-height: 100px; /* vertically centered keeping the div height */
+      }
+
+      #middle-div {
+        height: auto; /* remove the div height */
+        padding: 20px 0px; /* set same padding for top and bottom */
+      }
+
+      /* NOT a good way to center !!!*/
+      #lower-div {
+        position: absolute;
+        right: 80px;
+        bottom: 0px;
+        vertical-align: middle; /* Old CSS1 property. Doesn't work well with text but works with pictures */
+      }
+
+  </style>
+</head>
+  
+<body>
+    <div id="upper-div">Text centered with</div>
+    <div id="middle-div">Text centered with</div>
+    <div id="lower-div">Text centered with</div>
+</body>
+</html>
