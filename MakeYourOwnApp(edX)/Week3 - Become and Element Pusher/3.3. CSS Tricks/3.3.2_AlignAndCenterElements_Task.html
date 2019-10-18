@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Tricks</title>
+  <style>
+
+    * {
+      padding: 5px;
+      font-size: 18px;
+    }
+    body {
+      background-color: #45B29D;
+      font-family: sans-serif;
+      font-weight: bold;
+      width: 400px;
+      margin: auto; /* Horizontally center the body */
+      text-align: center; /* Horizontally center all text */
+    }
+    
+    div {
+      background-color: #202020;
+      color: white;
+      height: 60px;
+    }
+    ul {
+      list-style-type: none;
+    }
+
+    img {
+      height: 32px;
+      /* Vertically center the images */
+      /* Use a CSS1 property to vertically center all images. It will have a side-effect that we appreciate this time. */
+      vertical-align: middle;      
+    }
+
+    #close-button {
+      background-color: #383838;
+      padding: 6px 12px;
+      font-size: 40px;
+    
+    }
+    .uneven {
+      background-color: #368C7C
+    }
+    
+    #city {
+      font-size: 40px;
+      font-weight: 100;
+      line-height: 60px; /* Vertically center the city, must be the same as div height 60px */
+    }
+
+  </style>
+</head>
+  
+<body>
+  <div>
+    <span id="city">B E R L I N</span>
+    <span id="close-button">X</span>
+  </div>
+  
+  <ul>
+    <li  class="uneven">
+      <span>12:00</span> 
+      <img src="../../images/clear-day.png" alt="clear-day-pic"/> <!-- http://tinyurl.com/zct4g2a -->
+      <span>17&deg;C</span> 
+      <span>6 km/h</span> 
+      <span>63 %</span>
+    </li>
+    <li>
+      <span>13:00</span> 
+      <img src="../../images/clear-day.png" alt="clear-day-pic"/> <!-- http://tinyurl.com/zct4g2a -->
+      <span>19&deg;C</span> 
+      <span>7 km/h</span> 
+      <span>55 %</span>
+    </li>
+    <li  class="uneven">
+      <span>14:00</span> 
+      <img src="../../images/partly-cloudy-day.png" alt="partly-cloudy-day-pic"/> <!-- http://tinyurl.com/zce3f3q -->
+      <span>21&deg;C</span> 
+      <span>7 km/h</span> 
+      <span>62 %</span>
+    </li>
+  </ul>
+</body>
+</html>
