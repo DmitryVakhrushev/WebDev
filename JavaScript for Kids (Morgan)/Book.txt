@@ -6,3 +6,10 @@ Provided through Safari Tech & Business Books Online
 
 Safari:
 https://proquestcombo-safaribooksonline-com.ezproxy.torontopubliclibrary.ca/9781457189838
+
+------------------
+Sample solutions to the programming challenges
+Code files for the games and other examples
+
+https://nostarch.com/javascriptforkids
+

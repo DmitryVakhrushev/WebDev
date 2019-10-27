@@ -1,0 +1,20 @@
+Updates 
+Pages 241 and 246:
+
+The code for the move method should be:
+
+Ball.prototype.move = function () {
+this.x += this.xSpeed;
+this.y += this.ySpeed;
+
+if (this.x < 0) {
+this.x = width;
+} else if (this.x > width) {
+this.x = 0;
+}
+if (this.y < 0) {
+this.y = height;
+} else if (this.y > height) {
+this.y = 0;
+}
+};
