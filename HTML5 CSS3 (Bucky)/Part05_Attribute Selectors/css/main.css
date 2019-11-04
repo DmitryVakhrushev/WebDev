@@ -1,0 +1,42 @@
+/*------------- Previously available in CSS -------------*/
+/* IDs */
+#bbq {
+    color: red;
+}
+
+/* classes */
+.tuna { color: blue;
+}
+
+/* Apply this style to anything that has a "tuna" class BUT it has to be a PARAGRAPH */
+p.tuna { color: greenyellow;
+}
+
+/*------------- New in CSS3 -------------*/
+/*  Attribute Selectors */
+
+/* Affect any paragraph with attribute "name" */
+/* Attribute along or witha value */
+
+p[name] {
+    color: magenta;
+}
+
+p[name="bucky"] {
+    color: burlywood;
+}
+
+/* Regular Expressions Styling*/
+
+/*
+    ^ - anything that starts with..
+    $ - anyhting that ends with
+    * - anywhere in the string
+*/
+p[name^="bacon"]{
+    color: lightseagreen;
+}
+
+p[name$="bacon"]{
+    color: lemonchiffon;
+}
