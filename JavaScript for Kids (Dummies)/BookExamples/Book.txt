@@ -1,0 +1,18 @@
+
+
+Cheat Sheet:
+www.dummies.com/cheatsheet/javascriptforkids
+
+
+Extras:
+Online articles
+www.dummies.com/extras/javascriptforkids
+
+
+Webiste Examples:
+	http://cabbi.bo/ShinyText/
+	www.mediosyproyectos.com/puppetic
+	
+	
+--------------------------------------
+NaN - not a number
