@@ -24,3 +24,38 @@ var nick;
 var age = 12; // returns undefined (no value)
 age; // returns 12
 age = 13; // returns 13 as we are not creating a new variable
+
+
+var numberOfSiblings = 1 + 3;
+var numberOfCandies = 8;
+numberOfCandies / numberOfSiblings;
+
+var secondsInAMinute = 60;
+var minutesInAnHour = 60;
+var secondsInAnHour = secondsInAMinute * minutesInAnHour;
+secondsInAnHour;
+
+// First does the change and thenn returns the new value
+var highFives = 0;
+++highFives;
+++highFives;
+--highFives;
+
+// Returns the old value first and then does the change
+var highFives = 0;
+highFives++;
+highFives++;
+highFives;
+
+
+var x = 10;
+x = x + 5;
+x;
+
+var score = 10;
+score += 7;
+score -= 3;
+
+var myThing = 5;
+myThing = "this is a string";
+
