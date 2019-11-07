@@ -1,0 +1,6 @@
+
+/* color the entire website in blue */
+* {color: blue;}
+
+/* color everything that is not in the class "bucky" in red */
+:not(.bucky) {color:red;}
