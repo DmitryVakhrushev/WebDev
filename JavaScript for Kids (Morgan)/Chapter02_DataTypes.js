@@ -59,3 +59,45 @@ score -= 3;
 var myThing = 5;
 myThing = "this is a string";
 
+// Joining Strings
+var greeting = "Hello ";
+var myName = "Nick";
+greeting + myName;
+
+// Length of the string
+"Superduperlongstringoftext".length;
+
+var java = "Java";
+java.length;
+
+// Getting a single character from a string
+var myName = "Nick";
+myName[0];
+myName[1];
+myName[2];
+
+var codeWord1 = "are";
+var codeWord2 = "tubas";
+var codeWord3 = "unsafe";
+var codeWord4 = "?!";
+codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[1];
+
+// Cutting up strings
+"a string".slice(1,5); // start value and end stop value
+
+var longString = "My long string is long";
+longString.slice(3, 14);
+
+var longString = "My long string is long";
+longString.slice(3); // start from 3 till the end of the string
+
+// All Capital or Lowercase letters
+"Hello there, how are you doing?".toUpperCase();
+"heLLo THere, hOW ARE you doINg?".toLowerCase();
+
+// Start with capital case letter and the rest is lowercase
+var myStr = "heLLo THere, hOW ARE you doINg?";
+myStr = myStr.toLowerCase();
+var firstSymbol = myStr[0].toUpperCase();
+var restSentence = myStr.slice(1);
+firstSymbol + restSentence;
