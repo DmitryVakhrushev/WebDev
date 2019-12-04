@@ -1,3 +1,11 @@
+
+<style>
+    :not(h1){
+        font-family: Consolas;
+        font-size: 14px
+    }
+</style>    
+
 # Head First HTML and CSS
 
 Element = Opening Tag + Content + Closing Tag (p.25)
