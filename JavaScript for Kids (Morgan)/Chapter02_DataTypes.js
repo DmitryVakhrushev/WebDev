@@ -101,3 +101,52 @@ myStr = myStr.toLowerCase();
 var firstSymbol = myStr[0].toUpperCase();
 var restSentence = myStr.slice(1);
 firstSymbol + restSentence;
+
+//Logical operators (p.30)
+
+//Logical "AND"
+var hadShower = true;
+var hasBackpack = false;
+hadShower && hasBackpack;
+
+// Logical "OR"
+var hasApple = true;
+var hasOrange = true;
+hasApple || hasOrange;
+
+//Logical "NOT"
+var isWeekend = true;
+var needtToShowerToday = !isWeekend;
+needtToShowerToday;
+
+//Combining Logical Operators
+var isWeekend = false;
+var hadShower = true;
+var hasApple = false;
+var hasOrange = true;
+var shouldGoToSchool = !isWeekend && hadShower && (hasApple || hasOrange);
+shouldGoToSchool;
+
+//Comparing Numbers with Booleans (>, >=, <, <=)
+var height = 65;
+var heightRestriction = 60;
+height > heightRestriction;
+
+//Equal to
+// If you compare two different datatypes it will always return "false"
+var mySecretNumber = "5";
+var chicoGuess = 5;
+mySecretNumber === chicoGuess; //(===) Exact match.
+mySecretNumber == chicoGuess; // not strict match
+
+0 == false; //evaluates to "true"
+"fasle" == false; //evaluates to "false"
+
+//Undefined and NULL
+//Underfined - when JavaScript doesn't have a value for somrthing
+var myVariable;
+myVariable; //the value is not set therfore there is nothing to return.
+
+//NULL - when you want to deliberstely say "This is empty"
+var myNullVariable = null;
+myNullVariable;
