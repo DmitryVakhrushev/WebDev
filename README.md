@@ -14,7 +14,7 @@
 
 </style>    
 
-# Head First HTML and CSS
+# Head First HTML and CSS (BOOK)
 
 Element = Opening Tag + Content + Closing Tag (p.25)
 
@@ -33,11 +33,12 @@ Element = Opening Tag + Content + Closing Tag (p.25)
 ## Image:
 `<img src="images/myPic.png" alt="pictureAbout">`
 
-Images are stored on the Web servers, so every image on the Web has its own URL.
+- Images are stored on the Web servers, so every image on the Web has its own URL.
+- Provide "alt" attribute if the image is not found
+- Define width and height properties, so a broweser knows how to structure the page
 
 http://www.starbuzzcoffee.com/images/corporate/ceo.jpg
 
-http://www.headfirstlabs.com/trivia/pencil.gif
 
 * JPEG - use .jpg for photos and complex graphics (up to 16 million colors). Compress the file with losses.
 * GIF - use .gif for images with solid colors, logos, and geometric shapes (up to 256 colors). Compression without losses. Allows the background to be transparent. Lines, logos, small text, solid colors.
