@@ -1,0 +1,1 @@
+docs folder is published on GitHub pages
